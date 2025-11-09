@@ -1,0 +1,57 @@
+# Core Audio Processing
+pyaudio==0.2.14
+sounddevice==0.4.6
+soundfile==0.12.1
+numpy==2.1.1
+scipy==1.14.1
+
+# Speech-to-Text
+openai-whisper==20231117
+vosk==0.3.45
+faster-whisper==1.0.0
+
+# Speaker Diarization
+pyannote.audio==3.1.1
+torch==2.4.1
+torchaudio==2.4.1
+
+# LLM and Summarization
+groq==0.4.1
+transformers==4.45.1
+sentencepiece==0.2.0
+langchain==0.1.0
+tiktoken==0.5.2
+git+https://github.com/openai/whisper.git
+
+# UI and API
+streamlit==1.29.0
+streamlit-webrtc==0.47.1
+streamlit-audiorecorder==0.0.5
+
+# Evaluation & Metrics
+jiwer==3.0.3
+rouge-score==0.1.2
+nltk==3.8.1
+
+# Export and Communication
+reportlab==4.0.8
+markdown2==2.4.12
+python-docx==1.1.0
+smtplib  # Built-in, no install needed
+email-validator==2.1.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+loguru==0.7.2
+tqdm==4.66.1
+pandas==2.1.4
+pyarrow==14.0.2
+asyncio  # Built-in
+
+# Development
+pytest==7.4.3
+black==23.12.1
+flake8==6.1.0
+ipykernel==6.27.1
+jupyter==1.0.0
