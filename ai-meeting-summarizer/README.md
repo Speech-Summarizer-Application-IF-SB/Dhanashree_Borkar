@@ -1,18 +1,65 @@
-# 🎯 AI Live Meeting Summarizer
+# Meeting Summarizer
 
-A real-time meeting transcription and summarization tool that uses cutting-edge AI to:
-- Transcribe live audio with speaker identification
-- Generate intelligent summaries using LLMs
-- Export and email meeting notes instantly
+This module is a part of the Speech Summarizer Application (IF-SB).  
+It takes meeting audio, converts it into text, and generates a short summary that captures the key points discussed.
 
 ## Features
-- 🎙️ Real-time speech-to-text with <15% WER
-- 👥 Automatic speaker diarization
-- 🤖 AI-powered summarization
-- 📧 One-click email and export
-- 📊 Beautiful Streamlit interface
+- Converts speech to text
+- Summarizes long transcripts
+- Saves and displays meeting notes
+- Easy to run and modify
 
-## Quick Start
-1. Install dependencies: `pip install -r requirements.txt`
-2. Set up environment: `cp .env.example .env` and add your API keys
-3. Run the app: `streamlit run src/ui/streamlit_app.py`
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Speech-Summarizer-Application-IF-SB/Dhanashree_Borkar.git
+   cd Dhanashree_Borkar
+Create and activate a virtual environment:
+
+bash
+Copy code
+python -m venv .venv
+.venv\Scripts\activate
+Install the required libraries:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the app:
+
+bash
+Copy code
+python app.py
+or
+
+bash
+Copy code
+streamlit run app.py
+Folder Structure
+cpp
+Copy code
+MeetingSummarizer/
+│
+├── app.py
+├── requirements.txt
+├── static/
+├── templates/
+└── README.md
+Developer
+Dhanashree Borkar
+Speech Summarizer Application (IF-SB)
+
+yaml
+Copy code
+
+---
+
+### ✅ Steps:
+1. In VS Code → right-click → **New File → README.md**  
+2. Paste the full text above  
+3. Save (`Ctrl + S`)  
+4. In terminal:
+   ```bash
+   git add README.md
+   git commit -m "Added README"
+   git push
