@@ -1,0 +1,24 @@
+# --- Core STT ---
+sounddevice
+pyaudio
+ffmpeg-python
+openai-whisper==20250625
+
+# --- NLP & Summarization ---
+groq
+python-dotenv
+
+# --- Speaker Diarization (fallback supported) ---
+pyannote.audio
+
+# --- PDF Export ---
+reportlab
+
+# --- Streamlit UI ---
+streamlit
+
+# --- General Dependencies ---
+numpy
+torch
+tqdm
+requests
